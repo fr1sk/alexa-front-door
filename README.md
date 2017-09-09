@@ -1,4 +1,5 @@
 # alexa-front-door
+Alexa skill for opening my front door (alexa skill for my RPI "PiDoor" project)
 
 # How to run?
 * run: `npm install`
