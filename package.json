@@ -1,0 +1,27 @@
+{
+  "name": "alexa-starter-kit",
+  "version": "1.0.0",
+  "description": "starter kit for alexa, Beoyond Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "zip": "npm-run-all --parallel instl zipuj",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "instl": "npm i",
+    "zipuj": "zip -r archive.zip index.js node_modules/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fr1sk"
+  },
+  "author": "Marko Jovanovic",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/fr1sk"
+  },
+  "homepage": "fr1sk.me",
+  "dependencies": {
+    "alexa-sdk": "^1.0.7",
+    "npm-run-all": "3.1.1",
+    "request": "^2.81.0"
+  }
+}
